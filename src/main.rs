@@ -1,6 +1,6 @@
 use std::env;
 use std::io::prelude::*;
-    use std::net::TcpStream;
+use std::net::TcpStream;
 
 fn main() -> std::io::Result<()> {
     let location = env::args()
